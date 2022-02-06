@@ -7,6 +7,7 @@ public:
   
   void MC1();
   void MC2();
+  void MC3();
 private:
   string C1;
   int C2;
@@ -17,11 +18,14 @@ C::C(string C1, int C2){
 }
 
 
-void B::MC1(){
+void C::MC1(){
   cout << "MC1()" << endl;
 }
-void B::MC2(){
+void C::MC2(){
   cout << "MC2()" << endl;
+}
+void C::MC3(){
+  cout << "MC3()" << endl;
 }
 
 int main(){
