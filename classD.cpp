@@ -7,7 +7,7 @@ public:
 
   void MD1();
   void MD2();
-  void MD4()
+  void MD4();
 private:
   int D1;
   int D2;
